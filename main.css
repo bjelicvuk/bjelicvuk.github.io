@@ -11,6 +11,7 @@ body {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  z-index: -1;
 }
 
 .grid {
@@ -18,4 +19,10 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+}
+
+.grid img {
+  width: 1160;
+  height: 1550;
+  object-fit: cover;
 }
