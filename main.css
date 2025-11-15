@@ -5,6 +5,7 @@ body {
   heigth: 100vh;
   margin: 0;
   background-color: black;
+  background-image: url("https://zokaplus.github.io/autoportret1.gif");
 }
 
 .grid {
